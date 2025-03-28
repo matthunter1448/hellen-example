@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/runner/work/hellen-example/hellen-example/adapterboard.kicad_sch</source>
+    <date>2025-03-28T05:24:46+0000</date>
+    <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>adapterboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>Module-wbo-0.5</value>
+      <footprint>hellen-one-wbo-0.5:wbo</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="wbo" part="Module-wbo-0.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="adapterboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>931f8970-bda2-493e-ad73-9e0f843b907f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="wbo" part="Module-wbo-0.5">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-wbo-0.5</field>
+        <field name="Footprint">hellen-one-wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="E1" name="LSU_Un" type="passive"/>
+        <pin num="E2" name="LSU_Vm" type="passive"/>
+        <pin num="E3" name="LSU_Ip" type="passive"/>
+        <pin num="E4" name="LSU_Rtrim" type="passive"/>
+        <pin num="E5" name="LSU_H+" type="passive"/>
+        <pin num="E6" name="LSU_H-" type="passive"/>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="J1" name="SEL1" type="passive"/>
+        <pin num="J2" name="SEL2" type="passive"/>
+        <pin num="J_GND1" name="PULL_DOWN1" type="passive"/>
+        <pin num="J_GND2" name="PULL_DOWN2" type="passive"/>
+        <pin num="J_VCC1" name="PULL_UP1" type="passive"/>
+        <pin num="J_VCC2" name="PULL_UP2" type="passive"/>
+        <pin num="W1" name="V5_IN" type="passive"/>
+        <pin num="W2" name="CAN_VIO" type="passive"/>
+        <pin num="W3" name="CANL" type="passive"/>
+        <pin num="W4" name="CANH" type="passive"/>
+        <pin num="W5" name="nReset" type="passive"/>
+        <pin num="W6" name="SWDIO" type="passive"/>
+        <pin num="W7" name="SWCLK" type="passive"/>
+        <pin num="W8" name="V33_OUT" type="passive"/>
+        <pin num="W9" name="VDDA" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="unconnected-(M1-CANH-PadW4)">
+      <node ref="M1" pin="W4" pinfunction="CANH" pintype="passive"/>
+    </net>
+    <net code="2" name="unconnected-(M1-CANL-PadW3)">
+      <node ref="M1" pin="W3" pinfunction="CANL" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(M1-CAN_VIO-PadW2)">
+      <node ref="M1" pin="W2" pinfunction="CAN_VIO" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(M1-GND-PadG)">
+      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(M1-LSU_H+-PadE5)">
+      <node ref="M1" pin="E5" pinfunction="LSU_H+" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(M1-LSU_H--PadE6)">
+      <node ref="M1" pin="E6" pinfunction="LSU_H-" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(M1-LSU_Ip-PadE3)">
+      <node ref="M1" pin="E3" pinfunction="LSU_Ip" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(M1-LSU_Rtrim-PadE4)">
+      <node ref="M1" pin="E4" pinfunction="LSU_Rtrim" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(M1-LSU_Un-PadE1)">
+      <node ref="M1" pin="E1" pinfunction="LSU_Un" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(M1-LSU_Vm-PadE2)">
+      <node ref="M1" pin="E2" pinfunction="LSU_Vm" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(M1-PULL_DOWN1-PadJ_GND1)">
+      <node ref="M1" pin="J_GND1" pinfunction="PULL_DOWN1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(M1-PULL_DOWN2-PadJ_GND2)">
+      <node ref="M1" pin="J_GND2" pinfunction="PULL_DOWN2" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(M1-PULL_UP1-PadJ_VCC1)">
+      <node ref="M1" pin="J_VCC1" pinfunction="PULL_UP1" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(M1-PULL_UP2-PadJ_VCC2)">
+      <node ref="M1" pin="J_VCC2" pinfunction="PULL_UP2" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(M1-SEL1-PadJ1)">
+      <node ref="M1" pin="J1" pinfunction="SEL1" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(M1-SEL2-PadJ2)">
+      <node ref="M1" pin="J2" pinfunction="SEL2" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(M1-SWCLK-PadW7)">
+      <node ref="M1" pin="W7" pinfunction="SWCLK" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(M1-SWDIO-PadW6)">
+      <node ref="M1" pin="W6" pinfunction="SWDIO" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(M1-V5_IN-PadW1)">
+      <node ref="M1" pin="W1" pinfunction="V5_IN" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(M1-V33_OUT-PadW8)">
+      <node ref="M1" pin="W8" pinfunction="V33_OUT" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(M1-VDDA-PadW9)">
+      <node ref="M1" pin="W9" pinfunction="VDDA" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(M1-nReset-PadW5)">
+      <node ref="M1" pin="W5" pinfunction="nReset" pintype="passive"/>
+    </net>
+  </nets>
+</export>
